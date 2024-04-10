@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    max-width: 144rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.products {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+
+.product {
+    background: #f9f8fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product-content {
+    padding: 1rem 2rem;
+}
+
+.product .product-title {
+    font-size: 2rem;
+}
+
+.product-description {
+    text-align: justify;
+}
+
+.product-title,
+.product-price-container,
+.product-description,
+.product-category {
+    padding: 0.5rem 0;
+}
+
+.product-price-container {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-to-cart {
+    background: rgb(16, 8, 69);
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: white;
+    border-radius: 1rem;
+}
+
+.add-to-cart ion-icon {
+    font-size: 3rem;
+}
+
+.container-welcome {
+    text-align: center;
+  }
+  
+  .logo {
+    display: block;
+    margin: 20px auto;
+    margin-top: 200px;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .botao {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .botao:hover {
+    background-color: #333;
+  }
+
+  .header {
+    background-color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .container-header {
+    max-width: 144rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-nome {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-header {
+    width: 70px; 
+    height: auto;
+  }
+  
+  .nome-empresa {
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .botao-carrinho {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .botao-carrinho:hover {
+    background-color: #f9f8fc;
+  }
+  
+  .icone-carrinho {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .texto-carrinho {
+    font-size: 1.6rem;
+  }
+  
+  .icone-carrinho {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .footer {
+    background-color: #f9f8fc;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .container-footer {
+    max-width: 144rem;
+    margin: 0 auto;
+  }
+  
+
+  .copyright-github {
+    display: flex;
+    align-items: center;
+  }
+  
+  .copyright {
+    margin-right: 1rem;
+  }
+  
+  .link-github {
+    display: inline-block;
+    margin-left: 1rem;
+    color: #000;
+    font-size: 1.8rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .link-github:hover {
+    color: #333;
+  }
+  
+  .logo-github {
+    font-size: 2rem;
+  }
