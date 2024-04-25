@@ -233,23 +233,22 @@ body {
   
   @media (min-width: 768px) {
     .grid-container {
-        display: flex; /* Altera para flexbox */
-        flex-direction: row-reverse; /* Inverte a direção dos itens na linha */
-        justify-content: center; /* Centraliza os elementos na horizontal */
-        align-items: center; /* Centraliza os elementos na vertical */
+        display: flex; 
+        flex-direction: row-reverse; 
+        justify-content: center; 
+        align-items: center;
     }
 
     .home-container {
-        order: 2; /* Define a home como a segunda coluna */
-        margin-left: auto; /* Empurra a home para a extremidade direita */
+        order: 2; 
+        margin-left: auto;
     }
 
     .login-container {
-        order: 1; /* Define o login-container como a primeira coluna */
+        order: 1;
         background-color: #fff;
         padding: 20px;
-        margin: 0 auto; /* Centraliza a tela de login horizontalmente */
-         /* Adiciona margem superior para centralizar verticalmente */
+        margin: 0 auto; 
         display: flex;
         justify-content: center;
         align-items: center;
@@ -264,44 +263,43 @@ body {
     }
 
     .botoes {
-      display: flex; /* Activate Flexbox */
-      justify-content: center; /* Center buttons horizontally */
-      /* Remove any unnecessary margins from the container if needed */
+      display: flex; 
+      justify-content: center;
     }
     
     .botoes button {
-      background-color: #000; /* Black background */
-      color: white; /* White text */
-      border: none; /* Remove default border */
-      border-radius: 5px; /* Rounded corners */
-      padding: 10px 20px; /* Adjust padding as needed */
-      font-weight: bold; /* Bold font */
-      cursor: pointer; /* Indicate clickable area */
-      transition: background-color 0.3s ease; /* Add hover effect */
-      width: 193px; /* Button width */
+      background-color: #000;
+      color: white; 
+      border: none;
+      border-radius: 5px; 
+      padding: 10px 20px; 
+      font-weight: bold; 
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 193px;
       margin: 0 5px;
     }
     
-    .botoes button:hover { /* Hover effect */
-      background-color: #333; /* Darker shade on hover */
+    .botoes button:hover { 
+      background-color: #333;
     }
     
     .button-link {
-      background-color: #000; /* Fundo preto */
-      color: white; /* Texto branco */
-      border: none; /* Remove a borda padrão */
-      border-radius: 5px; /* Cantos arredondados */
-      padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
-      font-weight: bold; /* Fonte em negrito */
-      cursor: pointer; /* Indica uma área clicável */
-      transition: background-color 0.3s ease; /* Adiciona efeito de hover */
-      width: 193px; /* Largura do botão */
-      margin: 0 5px; /* Margem ao redor do botão */
+      background-color: #000; 
+      color: white; 
+      border: none; 
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-weight: bold; 
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 193px; 
+      margin: 0 5px;
       text-align: center;
   }
   
   .button-link:hover {
-    background-color: #333; /* Tonalidade mais escura no hover */
+    background-color: #333;
   }
 
 }
