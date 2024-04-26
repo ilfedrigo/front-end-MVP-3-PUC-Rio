@@ -51,6 +51,8 @@ O UrbanTrendz consiste em quatro telas principais:
 
 ## API Externa
 
+A API Externa é implementada na função fetchProducts na linha 8 do script.js
+
 A API Externa utilizada nesse projeto é a [Fake Store API](https://fakestoreapi.com/products), que obtém a lista de itens disponíveis para compra. 
 
 Os itens apresentados foram filtrados pelas categorias "men's clothing" e "women's clothing" a fim de reduzir o número de itens apresentados na página index.html.
